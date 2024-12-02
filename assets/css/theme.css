@@ -102,15 +102,6 @@ a:hover {
   color: #006ba1 !important;
 }
 
-.topbar {
-  border-bottom: 1px solid #e8eee4;
-  padding: 0.7rem;
-  background: rgb(47, 140, 219);
-  /* background: linear-gradient(90deg, rgba(47, 140, 219, 1) 0%, rgba(9, 79, 121, 1) 60%, rgba(9, 75, 121, 0.8827906162464986) 100%); */
-  background: rgb(87, 172, 245);
-  background: linear-gradient(90deg, rgba(87, 172, 245, 1) 0%, rgba(50, 171, 244, 1) 60%, rgba(46, 166, 249, 0.9332107843137255) 100%);
-}
-
 .topbar .container, .navbar .container {
   max-width: 1368px;
 }
@@ -478,7 +469,8 @@ a:hover {
 .page-section.form {
   background: rgb(87, 172, 245);
   background: linear-gradient(90deg, rgba(87, 172, 245, 1) 0%, rgba(50, 171, 244, 1) 60%, rgba(46, 166, 249, 0.9332107843137255) 100%);
-  clip-path: polygon(50% 0%, 100% 11%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 11%);
+ clip-path: polygon(7% 0, 94% 0, 100% 100%, 0% 100%);
+
 }
 
 .page-hero {
@@ -563,8 +555,8 @@ h1 {
 }
 
 .service:nth-child(even) {
-  transform: translateY(50px);
-  width: 200px;
+  /* transform: translateY(50px);
+  width: 200px; */
 }
 .service img {
   display: block;
@@ -670,18 +662,13 @@ ul {
   list-style: none;
 }
 
-.list li {
-  margin: 1rem 0;
-  display: flex;
-  align-items: center;
-}
 
 .list li span {
   display: inline-block;
   background-image: url("../img/tick.png");
   background-size: cover;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   text-align: center;
 }
 
@@ -797,7 +784,7 @@ ul {
 }
 
 .why {
-  background: url("../img/bg-3.png") 99% 30%, #96c93d;
+  background: url("../img/bg-3.png") 99% 30%, #00AEEF;
   background-position: cover;
   background-repeat: no-repeat;
   padding: 4rem 1rem;
@@ -869,15 +856,6 @@ ul {
 
 .gallary-item:hover img {
   transform: scale(0.9);
-}
-.item:nth-child(1) .item-circle {
-  background-color: #96c93d;
-}
-.item:nth-child(2) .item-circle {
-  background-color: #3dc949;
-}
-.item:nth-child(3) .item-circle {
-  background-color: #c9703d;
 }
 
 .item-content {
@@ -1364,7 +1342,6 @@ ul {
   display: block;
   padding-top: 80px;
   padding-bottom: 16px;
-  background-color: #2d3b38;
   color: #fff;
 }
 
